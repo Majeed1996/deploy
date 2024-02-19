@@ -100,7 +100,7 @@ export default function App() {
         onChange={handleChange}
         type="text"
         name="Email"
-        placeholder="Email"
+        placeholder="Username"
         value={info.Email}
       />
       {!IsValid.Email && IsTouch.Email && <p>*Required field</p>}
